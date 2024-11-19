@@ -14,6 +14,24 @@ function copyTextToClipboard(sourceElement) {
     };
 }
 
+function blockClipboardEvents() {
+    document.addEventListener('copy', (event) => {
+        event.preventDefault();
+        console.log("Copy action blocked.");
+    });
+
+    document.addEventListener('cut', (event) => {
+        event.preventDefault();
+        console.log("Cut action blocked.");
+    });
+
+    document.addEventListener('paste', (event) => {
+        event.preventDefault();
+        console.log("Paste action blocked.");
+    });
+}
+
 export {
     copyTextToClipboard,
+    blockClipboardEvents,
 }
