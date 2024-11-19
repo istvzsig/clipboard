@@ -9,7 +9,8 @@ The `copyTextToClipboard` function takes a source HTML element as an argument an
 ### Function Signature
 
 ```javascript
-function copyTextToClipboard(sourceElement)
+function copyTextToClipboard(sourceElement);
+function blockClipboardEvents();
 ```
 
 ## User Manual
