@@ -16,8 +16,9 @@ function blockClipboardEvents();
 ## User Manual
 
 ### Installation
-1. Include the JavaScript file in your HTML document or copy the function directly into your script.
-2. Ensure you have an HTML element (like a button) to trigger the copy action and a source element (like an input field) from which to copy the text.
+```bash
+npm install @istvzsig/clipboard
+```
 
 ## How to Use
 1. Set Up Your HTML: Create an input field or any other element containing the text you want to copy.

@@ -1,0 +1,30 @@
+{
+  "name": "@istvzsig/clipboard",
+  "version": "1.0.1",
+  "description": "copy textcontent to clipboard",
+  "main": "src/clipboard.js",
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/istvzsig/clipboard.git"
+  },
+  "keywords": [
+    "clipboard",
+    "clip",
+    "board",
+    "copytext",
+    "copy",
+    "text"
+  ],
+  "author": "Istvan Z",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/istvzsig/clipboard/issues"
+  },
+  "homepage": "https://github.com/istvzsig/clipboard#readme",
+  "dependencies": {
+    "babel": "^5.8.38"
+  }
+}
